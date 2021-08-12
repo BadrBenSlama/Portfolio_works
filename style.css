@@ -1,11 +1,19 @@
 .main {
   width: 327px;
-  height: 552px;
+  background: #e5e5e5;
+  padding: 15px 15px 15px 15px;
 }
 
-.img_container {
-  width: 295px;
-  height: 220px;
+.main_container {
+  background: white;
+  border-radius: 8px;
+}
+
+.card {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 #Tonic {
@@ -87,4 +95,97 @@
   font-weight: 500;
   font-size: 15px;
   padding: 4px 12px 4px 12px;
+}
+
+.project_button {
+  margin-top: 35px;
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  border-radius: 7px;
+  border: #396DF2 solid 1px;
+  color: #396DF2;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(138, 4, 248);
+}
+
+a:active {
+  color: rgb(4, 248, 248);
+}
+
+a:active {
+  color: red;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.about_me {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.lets {
+  font-family: Poppins, sans-serif;
+  color: #7f8cff;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.fab {
+  margin-right: 22px;
+}
+
+.langs {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fa-chevron-down {
+  margin-right: 30px;
+  color: #414447;
+}
+
+.fa-chevron-right {
+  margin-right: 30px;
+  color: #414447;
+}
+
+.javascript, .html1, .css1 {
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 10px 0 10px 10px;
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.langpic {
+  margin-right: 10px;
+}
+
+hr {
+  border: 1px solid rgb(83, 81, 81);;
 }
