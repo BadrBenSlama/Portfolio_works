@@ -16,7 +16,7 @@
   padding-left: 15px;
 }
 
-#Tonic {
+.Tonic {
   color: #172b4d;
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -25,7 +25,7 @@
   margin-top: 12px;
 }
 
-#canopy {
+.canopy {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -38,7 +38,7 @@
   margin-left: 12px;
 }
 
-#grey_text {
+.grey_text {
   color: #7a869a;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -63,7 +63,7 @@
   display: flex;
 }
 
-#html_button {
+.html_button {
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 5px;
@@ -74,7 +74,7 @@
   padding: 4px 12px 4px 12px;
 }
 
-#css_button {
+.css_button {
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 5px;
@@ -86,7 +86,7 @@
   padding: 4px 12px 4px 12px;
 }
 
-#js_button {
+.js_button {
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 5px;
@@ -102,21 +102,16 @@
   padding: 15px 15px 15px 15px;
   background-color: white;
   border-radius: 7px;
-  border: #396DF2 solid 1px;
-  color: #396DF2;
-  font-family: Poppins;
+  border: #396df2 solid 1px;
+  color: #396df2;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 22px;
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover {
   color: rgb(138, 4, 248);
-}
-
-a:active {
-  color: rgb(4, 248, 248);
 }
 
 a:active {
@@ -151,7 +146,7 @@ a:active {
 }
 
 .langs {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;
@@ -170,7 +165,9 @@ a:active {
   color: #414447;
 }
 
-.javascript, .html1, .css1 {
+.javascript,
+.html1,
+.css1 {
   background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -187,5 +184,5 @@ a:active {
 }
 
 hr {
-  border: 1px solid rgb(83, 81, 81);;
+  border: 1px solid rgb(83, 81, 81);
 }
