@@ -9,7 +9,7 @@
 }
 
 #Tonic {
-  color: #172B4D;
+  color: #172b4d;
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 37px;
@@ -18,7 +18,7 @@
 }
 
 #canopy {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 15px;
   color: #344563;
@@ -31,15 +31,15 @@
 }
 
 #grey_text {
-  color: #7A869A;
-  font-family: Poppins;
+  color: #7a869a;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
 }
 
 .project_text {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #344563;
@@ -48,7 +48,7 @@
 }
 
 .project_details {
-    display: flex;
+  display: flex;
 }
 
 .languages {
@@ -57,10 +57,10 @@
 
 #html_button {
   background-color: #ebebff;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 5px;
   border: #ebebff solid;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 15px;
   padding: 4px 12px 4px 12px;
@@ -68,11 +68,11 @@
 
 #css_button {
   background-color: #ebebff;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 5px;
   border: #ebebff solid;
   margin: 0 10px 0 10px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 15px;
   padding: 4px 12px 4px 12px;
@@ -80,12 +80,11 @@
 
 #js_button {
   background-color: #ebebff;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 5px;
   border: #ebebff solid;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 15px;
   padding: 4px 12px 4px 12px;
 }
-
