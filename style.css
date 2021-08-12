@@ -1,0 +1,91 @@
+.main {
+  width: 327px;
+  height: 552px;
+}
+
+.img_container {
+  width: 295px;
+  height: 220px;
+}
+
+#Tonic {
+  color: #172B4D;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+  margin-bottom: 30px;
+  margin-top: 12px;
+}
+
+#canopy {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 15px;
+  color: #344563;
+  line-height: 16px;
+}
+
+.grey_circle {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+#grey_text {
+  color: #7A869A;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.project_text {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  color: #344563;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.project_details {
+    display: flex;
+}
+
+.languages {
+  display: flex;
+}
+
+#html_button {
+  background-color: #ebebff;
+  color: #6070FF;
+  border-radius: 5px;
+  border: #ebebff solid;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+#css_button {
+  background-color: #ebebff;
+  color: #6070FF;
+  border-radius: 5px;
+  border: #ebebff solid;
+  margin: 0 10px 0 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+#js_button {
+  background-color: #ebebff;
+  color: #6070FF;
+  border-radius: 5px;
+  border: #ebebff solid;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
