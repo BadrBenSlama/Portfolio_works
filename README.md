@@ -4,7 +4,7 @@
 
 > Portoflio Mobile Website
 
-![screenshot](./screenshot.png)
+![screenshot](./img/screenshot.png)
 
 
 ## Built With
