@@ -5,8 +5,11 @@
 }
 
 .main_container {
+  display:grid;
   background: white;
   border-radius: 8px;
+  margin-bottom: 15px;
+
 }
 
 .card {
@@ -110,11 +113,11 @@
   text-decoration: none;
 }
 
-a:hover {
+.project_button:hover {
   color: rgb(138, 4, 248);
 }
 
-a:active {
+.project_button:active {
   color: red;
 }
 
@@ -153,6 +156,9 @@ a:active {
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 30px;
+  display: flex;
+
+  flex-direction: row;
 }
 
 .fa-chevron-down {
@@ -185,4 +191,14 @@ a:active {
 
 hr {
   border: 1px solid rgb(83, 81, 81);
+}
+
+.langs1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
