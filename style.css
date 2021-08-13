@@ -5,11 +5,10 @@
 }
 
 .main_container {
-  display:grid;
+  display: grid;
   background: white;
   border-radius: 8px;
   margin-bottom: 15px;
-
 }
 
 .card {
@@ -156,8 +155,6 @@
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 30px;
-  display: flex;
-
   flex-direction: row;
 }
 
@@ -189,10 +186,6 @@
   margin-right: 10px;
 }
 
-hr {
-  border: 1px solid rgb(83, 81, 81);
-}
-
 .langs1 {
   font-family: Poppins, sans-serif;
   font-weight: 500;
@@ -201,4 +194,6 @@ hr {
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(83, 81, 81);
 }
