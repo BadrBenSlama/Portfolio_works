@@ -1,0 +1,199 @@
+.main {
+  width: 327px;
+  background: #e5e5e5;
+  padding: 15px 15px 15px 15px;
+}
+
+.main_container {
+  display: grid;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.Tonic {
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+  margin-bottom: 30px;
+  margin-top: 12px;
+}
+
+.canopy {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #344563;
+  line-height: 16px;
+}
+
+.grey_circle {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.grey_text {
+  color: #7a869a;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.project_text {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #344563;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.project_details {
+  display: flex;
+}
+
+.languages {
+  display: flex;
+}
+
+.html_button {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 5px;
+  border: #ebebff solid;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.css_button {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 5px;
+  border: #ebebff solid;
+  margin: 0 10px 0 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.js_button {
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 5px;
+  border: #ebebff solid;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.project_button {
+  margin-top: 35px;
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  border-radius: 7px;
+  border: #396df2 solid 1px;
+  color: #396df2;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.project_button:hover {
+  color: rgb(138, 4, 248);
+}
+
+.project_button:active {
+  color: red;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.about_me {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.lets {
+  font-family: Poppins, sans-serif;
+  color: #7f8cff;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.fab {
+  margin-right: 22px;
+}
+
+.langs {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex-direction: row;
+}
+
+.fa-chevron-down {
+  margin-right: 30px;
+  color: #414447;
+}
+
+.fa-chevron-right {
+  margin-right: 30px;
+  color: #414447;
+}
+
+.javascript,
+.html1,
+.css1 {
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 10px 0 10px 10px;
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.langpic {
+  margin-right: 10px;
+}
+
+.langs1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(83, 81, 81);
+}
