@@ -1,0 +1,106 @@
+.main1 {
+    width: 375px;
+    height: 779px;
+    background-image: url("img/Contact_me.png");
+    position: relative;
+  }
+  
+  .main_container1 {
+    background-image: url("img/contact_shapes.png");
+    width: 265px;
+    height: 709.17px;
+    margin-top: 50px;
+    margin-left: 110px;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .contact-me {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .card {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-content {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin-bottom: 60px;
+    padding: 0 24px;
+  }
+  
+  .name,
+  .email,
+  .message {
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    width: 327px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  #name,
+  #email {
+    height: 48px;
+  }
+  
+  #message {
+    height: 170px;
+  }
+  
+  .button {
+    font-size: 17px;
+    color: #396df2;
+    font-weight: 600;
+    border: 1px solid #797b86;
+    border-radius: 8px;
+    margin-left: 25px;
+    width: 124px;
+    height: 48px;
+    text-align: center;
+  }
+  
+  .button:hover {
+    box-shadow: 0 8px rgba(64, 83, 252, 0.24);
+    background-color: #6070ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    border: 1px solid #c1c7d0;
+    cursor: not-allowed;
+    color: #5e6c84;
+  }
+  
+  .button:active {
+    background: #2230d2;
+    color: #fff;
+  }
+  
+  ::placeholder {
+    color: #858b94;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Poppins, sans-serif;
+    padding-left: 5px;
+  }
+  
