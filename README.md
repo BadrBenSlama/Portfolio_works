@@ -2,9 +2,10 @@
 
 # Project Name
 
-> Portoflio Mobile Website
+> Mobile Portoflio Webpage developped with flexbox and Formspress sending form
 
-![screenshot](./img/Screenshot.png)
+
+![screenshot](./img/contact_screen.png)
 
 
 ## Built With
@@ -30,9 +31,13 @@ https://github.com/Goldinium/Portfolio_works.git
 
 ## Authors
 
-👤 **Author1**
+👤 Goldinium
 
 - GitHub: [@goldinium](https://github.com/goldinium)
+
+👤 Fikerte-T
+
+- GitHub: [@Fikerte-T](https://github.com/Fikerte-T) 
 
 ## 🤝 Contributing
 
@@ -47,8 +52,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
