@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   }
 
-.main_container {
+/*.main_container {
   background-image: url("img/contact_shapes.png");
   position: absolute;
   width: 265px;
@@ -16,4 +16,68 @@
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
+}*/
+
+.contact-me {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #FFFFFF;
 }
+
+.card {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-bottom: 60px;
+}
+
+.name, .email, .message {
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
+  width: 327px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#name, #email {
+  height:  48px;
+}
+
+#message {
+  height: 170px;
+}
+
+button {
+  height: 48px;
+  width: 140px;
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+::placeholder { 
+  color: #858b94;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Poppins;
+} 
