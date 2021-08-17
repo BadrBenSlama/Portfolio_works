@@ -2,21 +2,29 @@
   width: 375px;
   height: 779px;
   background-image: url("img/Contact_me.png");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  /* background-color: #6070ff; */
+  /* border: 1px solid red; */
+  position: relative;
+  /* border-top-left-radius: 10px; */
   }
 
-/*.main_container {
+.main_container {
   background-image: url("img/contact_shapes.png");
-  position: absolute;
+  /* border-top-left-radius: 10px; */
+   /* position: absolute; */
   width: 265px;
   height: 709.17px;
-  left: 110px;
-  margin-top: 21px;
+  /* left: 110px; */
+  margin-top: 50px;
+  margin-left: 110px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-}*/
+  /* display: flex;  */
+  /* flex-direction: column; */
+  /* border: 1px solid black;  */
+  position: absolute;
+}
 
 .contact-me {
   text-align: center;
@@ -27,12 +35,15 @@
   line-height: 52px;
   align-items: center;
   color: #FFFFFF;
+  padding-bottom: 20px;
 }
 
 .card {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
+  /* border: 1px solid green; */
+  
 }
 
 .text-content {
@@ -44,6 +55,7 @@
   text-align: center;
   color: #EBEBFF;
   margin-bottom: 60px;
+  padding: 0 24px;
 }
 
 .name, .email, .message {
@@ -63,7 +75,7 @@
   height: 170px;
 }
 
-button {
+.button {
   height: 48px;
   width: 140px;
   color: #6070ff;
@@ -73,6 +85,12 @@ button {
   font-size: 17px;
   line-height: 24px;
   margin-left: 24px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #ffffff;
 }
 
 ::placeholder { 
