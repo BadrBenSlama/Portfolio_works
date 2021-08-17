@@ -3,7 +3,7 @@
   height: 779px;
   background-image: url("img/Contact_me.png");
   background-repeat: no-repeat;
-}
+  }
 
 .main_container {
   background-image: url("img/contact_shapes.png");
@@ -14,4 +14,6 @@
   margin-top: 21px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
 }
