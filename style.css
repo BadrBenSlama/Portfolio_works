@@ -1,19 +1,17 @@
 .main {
-  width: 327px;
-  background: #e5e5e5;
-  padding: 15px 15px 15px 15px;
+  width: 375px;
+  height: 779px;
+  background-image: url("img/Contact_me.png");
+  background-repeat: no-repeat;
 }
 
 .main_container {
-  display: grid;
-  background: white;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.card {
-  margin-top: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  background-image: url("img/contact_shapes.png");
+  position: absolute;
+  width: 265px;
+  height: 709.17px;
+  left: 110px;
+  margin-top: 21px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
