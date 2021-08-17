@@ -199,10 +199,11 @@
 }
 
 .main1 {
-  width: 375px;
-  height: 779px;
+  width: 357px;
+  height: 820px;
   background-image: url("img/Contact_me.png");
-  position: relative;
+  position: absolute;
+  z-index: 1;
 }
 
 .main_container1 {
@@ -210,10 +211,11 @@
   width: 265px;
   height: 709.17px;
   margin-top: 50px;
-  margin-left: 110px;
+  margin-left: 92px;
   background-size: 100% 100%;
   position: absolute;
   z-index: -1;
+
 }
 
 .contact-me {
@@ -232,6 +234,7 @@
   padding-top: 100px;
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }
 
 .text-content {
@@ -253,7 +256,7 @@
   border: 1px solid #cfd8dc;
   width: 327px;
   margin-bottom: 20px;
-  margin-left: 24px;
+  margin-left: -2px;
   margin-right: 24px;
 }
 
@@ -266,32 +269,32 @@
   height: 170px;
 }
 
-.button {
+.button1 {
   font-size: 17px;
   color: #396df2;
   font-weight: 600;
   border: 1px solid #797b86;
   border-radius: 8px;
-  margin-left: 25px;
+  margin-left: -2px;
   width: 124px;
   height: 48px;
   text-align: center;
 }
 
-.button:hover {
+.button1:hover {
   box-shadow: 0 8px rgba(64, 83, 252, 0.24);
   background-color: #6070ff;
   color: #fff;
   cursor: pointer;
 }
 
-.button:disabled {
+.button1:disabled {
   border: 1px solid #c1c7d0;
   cursor: not-allowed;
   color: #5e6c84;
 }
 
-.button:active {
+.button1:active {
   background: #2230d2;
   color: #fff;
 }
