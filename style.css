@@ -2,27 +2,17 @@
   width: 375px;
   height: 779px;
   background-image: url("img/Contact_me.png");
-  /* background-repeat: no-repeat; */
-  /* background-color: #6070ff; */
-  /* border: 1px solid red; */
   position: relative;
-  /* border-top-left-radius: 10px; */
-  }
+}
 
 .main_container {
   background-image: url("img/contact_shapes.png");
-  /* border-top-left-radius: 10px; */
-   /* position: absolute; */
   width: 265px;
   height: 709.17px;
-  /* left: 110px; */
   margin-top: 50px;
   margin-left: 110px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* display: flex;  */
-  /* flex-direction: column; */
-  /* border: 1px solid black;  */
   position: absolute;
 }
 
@@ -34,7 +24,7 @@
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
   padding-bottom: 20px;
 }
 
@@ -42,8 +32,6 @@
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid green; */
-  
 }
 
 .text-content {
@@ -53,22 +41,25 @@
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-bottom: 60px;
   padding: 0 24px;
 }
 
-.name, .email, .message {
+.name,
+.email,
+.message {
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   width: 327px;
   margin-bottom: 20px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-#name, #email {
-  height:  48px;
+#name,
+#email {
+  height: 48px;
 }
 
 #message {
@@ -80,7 +71,6 @@
   color: #396df2;
   font-weight: 600;
   border: 1px solid #6070ff;
-  /* padding: 12px; */
   border-radius: 8px;
   margin-left: 25px;
   width: 124px;
@@ -105,10 +95,10 @@
   color: #fff;
 }
 
-::placeholder { 
+::placeholder {
   color: #858b94;
   font-size: 18px;
   font-weight: normal;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   padding-left: 5px;
-} 
+}
