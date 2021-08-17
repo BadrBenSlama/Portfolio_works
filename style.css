@@ -11,9 +11,9 @@
   height: 709.17px;
   margin-top: 50px;
   margin-left: 110px;
-  background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
+  z-index: -1;
 }
 
 .contact-me {
@@ -26,6 +26,7 @@
   align-items: center;
   color: #fff;
   padding-bottom: 20px;
+
 }
 
 .card {
