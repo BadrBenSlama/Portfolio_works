@@ -4,7 +4,7 @@
 
 > Portoflio Mobile Website
 
-![screenshot](./img/Screenshot.png)
+![screenshot](./img/contact_screen.png)
 
 
 ## Built With
@@ -34,6 +34,10 @@ https://github.com/Goldinium/Portfolio_works.git
 
 - GitHub: [@goldinium](https://github.com/goldinium)
 
+👤 **Author2**
+
+- GitHub: [@Fikerte-T](https://github.com/Fikerte-T) 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -47,8 +51,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
