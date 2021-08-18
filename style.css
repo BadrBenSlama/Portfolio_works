@@ -1,3 +1,83 @@
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.connect {
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 24px 0 24px;
+}
+
+.fas {
+  left: 500px;
+}
+
+.fab {
+  color: gray;
+  margin: 10px 5px 20px 5px;
+}
+
+.contact {
+  margin: 12px 24px 0 24px;
+}
+
+.backimg {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  width: 360px;
+}
+
+.header-welcome {
+  color: #37373b;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  margin: 12px 24px 0 24px;
+}
+
+.introduction {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 24px 0 24px;
+}
+
+.navbar {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 24px 0 24px;
+}
+
 .main {
   width: 327px;
   background: #e5e5e5;
