@@ -91,6 +91,11 @@ a {
   margin-bottom: 15px;
 }
 
+.image_container {
+  width: 295px;
+  height: 220px;
+}
+
 .card {
   margin-top: 15px;
   padding-top: 15px;

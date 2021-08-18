@@ -55,6 +55,7 @@ a {
   font-family: Poppins,sans-serif;
   font-weight: normal;
   font-size: 20px;
+  line-height: 28px;
 }
 
 .whoimi {
@@ -84,4 +85,26 @@ a {
 
 .fa-twitter {
     margin-left: 0;
+}
+
+.image_container {
+  width: 544px;
+  height: 448px;
+  }
+
+.main {
+  background: #e5e5e5;
+}
+
+.card {
+    width: 1156px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    margin-bottom: 142px;
+}
+
+.greydiv {
+    margin-top: 142px;
+    background: #e5e5e5;
+    height: 142px;
 }
