@@ -1,0 +1,87 @@
+.hamburger {
+  display: none;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 155px;
+  margin-right: 155px;
+}
+
+#about {
+    margin: 0 32px 0 32px;
+}
+
+.links {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.headerimg {
+
+    background-image: url("img/Header_bg.png");
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-welcome {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 30px;
+  margin-top: 241px;
+  line-height: 60px;
+
+}
+
+.introduction {
+  font-family: Poppins,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.whoimi {
+  margin: auto;
+  width: 920px;
+  padding-top: 5%;
+}
+
+.connect {
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 24px 0 0;
+}
+
+.fab {
+  color: gray;
+  margin: 10px 5px 20px 5px;
+
+}
+  
+.contact {
+  margin: 12px 24px 0 0;
+}
+
+.fa-twitter {
+    margin-left: 0;
+}

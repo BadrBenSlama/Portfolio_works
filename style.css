@@ -385,3 +385,7 @@ a {
   font-family: Poppins, sans-serif;
   padding-left: 5px;
 }
+
+.links {
+  display: none;
+}
