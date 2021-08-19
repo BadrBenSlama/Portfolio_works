@@ -227,6 +227,7 @@ a {
 
 .me {
   margin-right: 30px;
+  margin-top: -20px;
 }
 
 .right_me {
@@ -284,7 +285,7 @@ a {
   color: #414447;
 }
 
-.javascript,
+.javascript1,
 .html1,
 .css1 {
   background: #f7f7f9;
@@ -298,6 +299,8 @@ a {
   font-size: 17px;
   width: 160px;
   height: 120px;
+  display: flex;
+  flex-direction: column;
 }
 
 .html1 {
@@ -306,7 +309,12 @@ a {
 }
 
 .langpic {
-  margin-right: 10px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+
+.align_text {
+    margin-left: -60px;
 }
 
 .langs1 {
