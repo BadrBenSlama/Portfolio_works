@@ -2,10 +2,13 @@
 
 # Project Name
 
-> Mobile Portoflio Webpage developped with flexbox and Formspress sending form
+> Desktop Portoflio Webpage version developped with flexbox and Formspress sending form,
+in this version i used media queries to destinguish between mobile and desktop version
 
 
-![screenshot](./img/contact_screen.png)
+![screenshot](./img/welcome_screenshot.png)
+![screenshot](./img/section_screenshot.png)
+![screenshot](./img/footer_screenshot.png)
 
 
 ## Built With
@@ -35,9 +38,6 @@ https://github.com/Goldinium/Portfolio_works.git
 
 - GitHub: [@goldinium](https://github.com/goldinium)
 
-👤 Fikerte-T
-
-- GitHub: [@Fikerte-T](https://github.com/Fikerte-T) 
 
 ## 🤝 Contributing
 
