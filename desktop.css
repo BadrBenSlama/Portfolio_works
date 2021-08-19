@@ -299,7 +299,6 @@ a {
   font-size: 17px;
   width: 160px;
   height: 120px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -314,7 +313,7 @@ a {
 }
 
 .align_text {
-    margin-left: -60px;
+  margin-left: -60px;
 }
 
 .langs1 {
