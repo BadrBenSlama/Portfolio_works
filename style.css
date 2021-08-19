@@ -23,11 +23,6 @@ a {
   left: 500px;
 }
 
-.fab {
-  color: gray;
-  margin: 10px 5px 20px 5px;
-}
-
 .contact {
   margin: 12px 24px 0 24px;
 }
@@ -229,7 +224,8 @@ a {
 }
 
 .fab {
-  margin-right: 22px;
+  color: gray;
+  margin: 10px 5px 20px 5px;
 }
 
 .langs {
