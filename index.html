@@ -1,173 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="style.css" />
     <title>Portfolio</title>
 </head>
+
 <body>
- <div class="backimg">
-    <header>
-        <nav class="navbar">
-        <h3 class="logo"><a href="#">My Logo</a></h3>
-        <i class="fas fa-bars"></i></nav>
-        <h1 class="header-welcome">I’m Ben<br>Glad to see you!</h1>
-        <div class="introduction">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</div>
-        <div class="connect">Let's connect</div>
-        <div class="contact"><i class="fab fa-twitter fa-lg"></i>
-        <i class="fab fa-linkedin fa-lg"></i>
-        <i class="fab fa-medium fa-lg"></i>
-        <i class="fab fa-github fa-lg"></i></div>
+    <div class="backimg">
+        <header>
+            <nav class="navbar">
+                <h3 class="logo"><a href="#">My Logo</a></h3>
+                <i class="fas fa-bars hamburger"></i>
+                <div class="links">
+                    <a href="#">Portfolio</a>
+                    <a href="#" id="about">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+            <div class="headerimg">
+                <div class="whoimi">
+                    <h1 class="header-welcome">I’m Ben<br>Glad to see you!</h1>
+                    <div class="introduction">I’m a software developer! I can help you build a product , feature or
+                        website
+                        Look
+                        through<br>some of my work and experience! If you like what you see and have a project you
+                        need<br>coded,
+                        don’t hestiate to contact me.</div>
+                    <div class="connect">Let's connect</div>
+                    <div class="contact"><i class="fab fa-twitter fa-lg"></i>
+                        <i class="fab fa-linkedin fa-lg"></i>
+                        <i class="fab fa-medium fa-lg"></i>
+                        <i class="fab fa-github fa-lg"></i>
+                    </div>
+                </div>
+            </div>
         </header>
     </div>
+    <div class="greydiv"></div>
     <div class="main">
         <div class="main_container">
             <section class="card">
-                <div><img class="image_container" alt="grey" src="img/Snapshoot1.png"></div>
-                <div class="project_highlight">
-                    <p class="Tonic">Tonic</p>
-                    <div class="project_details">
-                        <div class="canopy">CANOPY</div>
-                        <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
-                        <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey" src="img/circle.png">2015
+                <div><img class="image_container" alt="grey" src="img/Snapshoot_Portfolio1.png"></div>
+                <div class="right_card">
+                    <div class="project_highlight">
+                        <p class="Tonic">Tonic</p>
+                        <div class="project_details">
+                            <div class="canopy">CANOPY</div>
+                            <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
+                            <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey"
+                                    src="img/circle.png">2015
+                            </div>
                         </div>
+                        <p class="project_text">A daily selection of privately personalized reads; no accounts or
+                            sign-ups
+                            required.</p>
                     </div>
-                    <p class="project_text">A daily selection of privately personalized reads; no accounts or sign-ups
-                        required.</p>
+                    <ul class="languages">
+                        <li class="html_button">html</li>
+                        <li class="css_button">css</li>
+                        <li class="js_button">javascript</li>
+                    </ul>
+                    <form action="#">
+                        <input type="submit" class="project_button" value="See Project" />
+                    </form>
                 </div>
-                <ul class="languages">
-                    <li class="html_button">html</li>
-                    <li class="css_button">css</li>
-                    <li class="js_button">javascript</li>
-                </ul>
-                <form action="#">
-                    <input type="submit" class="project_button" value="See Project" />
-                </form>
             </section>
         </div>
         <div class="main_container">
             <section class="card">
-                <div><img class="image_container" alt="grey" src="img/Snapshoot2.png"></div>
-                <div class="project_highlight">
-                    <p class="Tonic">Multi-Post stories</p>
-                    <div class="project_details">
-                        <div class="canopy">CANOPY</div>
-                        <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
-                        <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey" src="img/circle.png">2015
+                <div class="right_card">
+                    <div class="project_highlight">
+                        <p class="Tonic">Multi-Post stories</p>
+                        <div class="project_details">
+                            <div class="canopy">CANOPY</div>
+                            <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
+                            <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey"
+                                    src="img/circle.png">2015
+                            </div>
                         </div>
+                        <p class="project_text">A daily selection of privately personalized reads; no accounts or
+                            sign-ups
+                            required.</p>
                     </div>
-                    <p class="project_text">A daily selection of privately personalized reads; no accounts or sign-ups
-                        required.</p>
+                    <ul class="languages">
+                        <li class="html_button">html</li>
+                        <li class="css_button">css</li>
+                        <li class="js_button">javascript</li>
+                    </ul>
+                    <form action="#">
+                        <input type="submit" class="project_button" value="See Project" />
+                    </form>
                 </div>
-                <ul class="languages">
-                    <li class="html_button">html</li>
-                    <li class="css_button">css</li>
-                    <li class="js_button">javascript</li>
-                </ul>
-                <form action="#">
-                    <input type="submit" class="project_button" value="See Project" />
-                </form>
+                <div><img class="image_container" alt="grey" src="img/Snapshoot_Portfolio2.png"></div>
             </section>
         </div>
         <div class="main_container">
             <section class="card">
-                <div><img class="image_container" alt="grey" src="img/Snapshoot3.png"></div>
-                <div class="project_highlight">
-                    <p class="Tonic">Tonic</p>
-                    <div class="project_details">
-                        <div class="canopy">CANOPY</div>
-                        <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
-                        <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey" src="img/circle.png">2015
+                <div><img class="image_container" alt="grey" src="img/Snapshoot_Portfolio3.png"></div>
+                <div class="right_card">
+                    <div class="project_highlight">
+                        <p class="Tonic">Tonic</p>
+                        <div class="project_details">
+                            <div class="canopy">CANOPY</div>
+                            <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
+                            <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey"
+                                    src="img/circle.png">2015
+                            </div>
                         </div>
+                        <p class="project_text">A daily selection of privately personalized reads; no accounts or
+                            sign-ups
+                            required.</p>
                     </div>
-                    <p class="project_text">A daily selection of privately personalized reads; no accounts or sign-ups
-                        required.</p>
+                    <ul class="languages">
+                        <li class="html_button">html</li>
+                        <li class="css_button">css</li>
+                        <li class="js_button">javascript</li>
+                    </ul>
+                    <form action="#">
+                        <input type="submit" class="project_button" value="See Project" />
+                    </form>
                 </div>
-                <ul class="languages">
-                    <li class="html_button">html</li>
-                    <li class="css_button">css</li>
-                    <li class="js_button">javascript</li>
-                </ul>
-                <form action="#">
-                    <input type="submit" class="project_button" value="See Project" />
-                </form>
             </section>
         </div>
         <div class="main_container">
             <section class="card">
-                <div><img class="image_container" alt="grey" src="img/Snapshoot4.png"></div>
-                <div class="project_highlight">
-                    <p class="Tonic">Multi-Post stories</p>
-                    <div class="project_details">
-                        <div class="canopy">CANOPY</div>
-                        <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
-                        <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey" src="img/circle.png">2015
+                <div class="right_card">
+                    <div class="project_highlight">
+                        <p class="Tonic">Multi-Post stories</p>
+                        <div class="project_details">
+                            <div class="canopy">CANOPY</div>
+                            <div><img class="grey_circle" alt="grey" src="img/circle.png"></div>
+                            <div class="grey_text">Back End Dev<img class="grey_circle" alt="grey"
+                                    src="img/circle.png">2015
+                            </div>
                         </div>
+                        <p class="project_text">A daily selection of privately personalized reads; no accounts or
+                            sign-ups
+                            required.</p>
                     </div>
-                    <p class="project_text">A daily selection of privately personalized reads; no accounts or sign-ups
-                        required.</p>
+                    <ul class="languages">
+                        <li class="html_button">html</li>
+                        <li class="css_button">css</li>
+                        <li class="js_button">javascript</li>
+                    </ul>
+                    <form action="#">
+                        <input type="submit" class="project_button" value="See Project" />
+                    </form>
                 </div>
-                <ul class="languages">
-                    <li class="html_button">html</li>
-                    <li class="css_button">css</li>
-                    <li class="js_button">javascript</li>
-                </ul>
-                <form action="#">
-                    <input type="submit" class="project_button" value="See Project" />
-                </form>
+                <div><img class="image_container" alt="grey" src="img/Snapshoot_Portfolio4.png"></div>
             </section>
         </div>
         <section class="about">
-            <div class="title">About<br> Myself</div>
-            <p class="about_me">Hello I’m a software developer! I can help you build a product , feature or website
-                Look through some of my work and experience! If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.</p>
-            <h3 class="lets">LET'S CONNECT</h3>
-            <div class="contact"><i class="fab fa-twitter fa-lg"></i>
-                <i class="fab fa-linkedin fa-lg"></i>
-                <i class="fab fa-medium fa-lg"></i>
-                <i class="fab fa-github fa-lg"></i>
-            </div>
-            <form action="#">
-                <input type="submit" class="project_button" value="Get my resume" />
-            </form>
-            <div class="langs">languages<i class="fas fa-chevron-down"></i></div>
-            <div>
-                <ul>
-                    <li class="javascript"><img class="langpic" alt="js" src=img/js.png>Javascript</li>
-                    <li class="html1"><img class="langpic" alt="html" src=img/html.png>HTML5</li>
-                    <li class="css1"><img class="langpic" alt="css" src=img/css.png>CSS3</li>
-                </ul>
-                    <div class="langs1">Frameworks<i class="fas fa-chevron-right"></i>
+            <div class="about_inside">
+                <div class="me">
+                    <div class="title">About<br> Myself</div>
+                    <p class="about_me">Hello I’m a software developer! I can help you build a<br>product , feature or
+                        website
+                        Look through some of my<br>work and experience! If you like what you see and have<br>a project
+                        you need coded,
+                        don’t hestiate to contact me.</p>
+                    <h3 class="lets">LET'S CONNECT</h3>
+                    <div class="contact"><i class="fab fa-twitter fa-lg"></i>
+                        <i class="fab fa-linkedin fa-lg"></i>
+                        <i class="fab fa-medium fa-lg"></i>
+                        <i class="fab fa-github fa-lg"></i>
                     </div>
-                    <div class="langs1">Skills <i class="fas fa-chevron-right"></i>
+                    <form action="#">
+                        <input type="submit" class="project_button" value="Get my resume" />
+                    </form>
+                </div>
+                <div class="right_me">
+                    <div class="langs">languages<i class="fas fa-chevron-down"></i></div>
+                    <div>
+                        <div class="icons">
+                            <div class="javascript1"><img class="langpic" alt="js" src=img/js.png><p class="align_text">Javascript</p></div>
+                            <div class="html1"><img class="langpic" alt="html" src=img/html.png><p class="align_text">HTML5</p></div>
+                            <div class="css1"><img class="langpic" alt="css" src=img/css.png><p class="align_text">>CSS3</p></div>
+                        </div>
+                        <div class="langs1">Frameworks<i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="langs1">Skills <i class="fas fa-chevron-right"></i>
+                        </div>
                     </div>
+                </div>
             </div>
         </section>
     </div>
     <div class="main1">
         <div class="main_container1"></div>
-        <div class="card1">
-            <h2 class="contact-me">Contact me</h2>
-            <p class="text-content">If you have an application you are interested in developing,
-                a feature that you need built or a project that needs coding.
-                I’d love to help with it </p>
-            <form action="https://formspree.io/f/mwkawbbd" method="POST">
-                <input type="text" id="name" class="name" maxlength="30" required placeholder="Your name">
-                <input type="email" id="email" class="email" required placeholder="Your email">
-                <textarea name="message" id="message" class="message" maxlength="500" placeholder="Write your message here"
-                    required></textarea>
-                <input type="submit" value="Get In Touch" class="button1">
-            </form>
-        </div>
+            <div class="card1">
+                <h2 class="contact-me">Contact me</h2>
+                <p class="text-content">If you have an application you are interested in developing,
+                    a feature that you need built or a project that needs coding.
+                    I’d love to help with it </p>
+                    <form class="form_column" action="https://formspree.io/f/mwkawbbd" method="POST">
+                        <input type="text" id="name" class="name" maxlength="30" required placeholder="Your full name">
+                        <input type="email" id="email" class="email" required placeholder="Your email">
+                        <textarea name="message" id="message" class="message" maxlength="500"
+                            placeholder="Write your message here" required></textarea>
+                        <input type="submit" value="Get In Touch" class="button1">
+                    </form>
+            </div>
     </div>
 </body>
 
