@@ -85,6 +85,10 @@ a {
   margin-right: 46px;
 }
 
+.image_container:hover {
+    transform: scale(1.1);
+}
+
 .main {
   background: #e5e5e5;
 }
