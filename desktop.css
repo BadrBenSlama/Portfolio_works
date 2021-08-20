@@ -10,9 +10,7 @@
 }
 
 .logo:hover {
-  transition-duration: 2s;
-  transition-delay: 2s;
-  animation-duration: 3s;
+  animation-duration: 0.5s;
   animation-name: rotation;
 }
 
