@@ -9,6 +9,23 @@
   font-family: Poppins, sans-serif;
 }
 
+.logo:hover {
+  transition-duration:2s;
+  transition-delay: 2s;
+  animation-duration: 3s;
+  animation-name: rotation;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -383,6 +400,10 @@ a {
   color: #ebebff;
   margin-bottom: 60px;
   padding: 0 24px;
+}
+
+.text-content:hover {
+  transform: translate(10px);
 }
 
 .name,
