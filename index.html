@@ -14,6 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="desktop.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G05Z38FJ6J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-G05Z38FJ6J');
+    </script>
     <title>Portfolio</title>
 </head>
 
@@ -185,9 +194,15 @@
                     <div class="langs">languages<i class="fas fa-chevron-down"></i></div>
                     <div>
                         <div class="icons">
-                            <div class="javascript1"><img class="langpic" alt="js" src=img/js.png><p class="align_text">Javascript</p></div>
-                            <div class="html1"><img class="langpic" alt="html" src=img/html.png><p class="align_text">HTML5</p></div>
-                            <div class="css1"><img class="langpic" alt="css" src=img/css.png><p class="align_text">>CSS3</p></div>
+                            <div class="javascript1"><img class="langpic" alt="js" src=img/js.png>
+                                <p class="align_text">Javascript</p>
+                            </div>
+                            <div class="html1"><img class="langpic" alt="html" src=img/html.png>
+                                <p class="align_text">HTML5</p>
+                            </div>
+                            <div class="css1"><img class="langpic" alt="css" src=img/css.png>
+                                <p class="align_text">>CSS3</p>
+                            </div>
                         </div>
                         <div class="langs1">Frameworks<i class="fas fa-chevron-right"></i>
                         </div>
@@ -200,19 +215,19 @@
     </div>
     <div class="main1">
         <div class="main_container1"></div>
-            <div class="card1">
-                <h2 class="contact-me">Contact me</h2>
-                <p class="text-content">If you have an application you are interested in developing,
-                    a feature that you need built or a project that needs coding.
-                    I’d love to help with it </p>
-                    <form class="form_column" action="https://formspree.io/f/mwkawbbd" method="POST">
-                        <input type="text" id="name" class="name" maxlength="30" required placeholder="Your full name">
-                        <input type="email" id="email" class="email" required placeholder="Your email">
-                        <textarea name="message" id="message" class="message" maxlength="500"
-                            placeholder="Write your message here" required></textarea>
-                        <input type="submit" value="Get In Touch" class="button1">
-                    </form>
-            </div>
+        <div class="card1">
+            <h2 class="contact-me">Contact me</h2>
+            <p class="text-content">If you have an application you are interested in developing,
+                a feature that you need built or a project that needs coding.
+                I’d love to help with it </p>
+            <form class="form_column" action="https://formspree.io/f/mwkawbbd" method="POST">
+                <input type="text" id="name" class="name" maxlength="30" required placeholder="Your full name">
+                <input type="email" id="email" class="email" required placeholder="Your email">
+                <textarea name="message" id="message" class="message" maxlength="500"
+                    placeholder="Write your message here" required></textarea>
+                <input type="submit" value="Get In Touch" class="button1">
+            </form>
+        </div>
     </div>
 </body>
 
