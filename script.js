@@ -13,7 +13,6 @@ document.querySelectorAll('.mobile_items').forEach((item) => {
     body.style.overflow = 'scroll';
     backimg.style.filter = 'blur(0px)';
     mainContainer.style.filter = 'blur(0px)';
-    
   });
 });
 
