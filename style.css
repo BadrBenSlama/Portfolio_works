@@ -395,9 +395,9 @@ a {
 
 #mobile_menu {
   display: none;
-  height: 500px;
+  height: 100vh;
   width: 100%;
-  background: #6070ff;
+  background-color: #6070ff;
   margin-top: -127%;
   font-family: Poppins, sans-serif;
   font-style: normal;

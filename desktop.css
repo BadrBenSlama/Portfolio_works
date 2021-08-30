@@ -439,3 +439,7 @@ a {
   font-family: Poppins, sans-serif;
   padding-left: 5px;
 }
+
+.fa-times {
+  display: none;
+}
