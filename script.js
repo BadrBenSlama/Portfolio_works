@@ -9,6 +9,7 @@ document.querySelectorAll('.mobile_menu_items').forEach((item) => {
       mobile_menu.style.display = 'none';
       times.style.display = "none";
       hamburger.style.display = 'block';
+      body.style.overflow = 'scroll';
     });
 });
 
@@ -23,4 +24,5 @@ times.addEventListener('click', function() {
     mobile_menu.style.display = 'none';
     times.style.display = 'none';
     hamburger.style.display = 'block';
+    body.style.overflow = 'scroll';
 });
