@@ -31,6 +31,7 @@ a {
   background-image: url("img/background.png");
   background-repeat: no-repeat;
   width: 360px;
+  z-index: -1;
 }
 
 .header-welcome {
@@ -46,6 +47,7 @@ a {
   left: 24px;
   top: 114px;
   margin: 25px 24px 0 24px;
+  z-index: -1;
 }
 
 .introduction {
@@ -388,5 +390,32 @@ a {
 }
 
 .links {
+  display: none;
+}
+
+#mobile_menu {
+  display: none;
+  height: 500px;
+  width: 100%;
+  background: #6070ff;
+  margin-top: -127%;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  z-index: 1;
+}
+
+.mobile_items > li {
+margin-top: 30px;
+}
+
+.mobile_items {
+  padding: 50px;
+}
+
+.fa-times {
   display: none;
 }
