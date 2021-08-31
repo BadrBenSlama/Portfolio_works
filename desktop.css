@@ -2,6 +2,10 @@
   display: none;
 }
 
+.overlay {
+  display: none;
+}
+
 .logo {
   color: #6070ff;
   font-size: 18px;

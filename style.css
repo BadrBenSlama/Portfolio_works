@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .logo {
   color: #6070ff;
   font-size: 18px;
@@ -30,7 +34,7 @@ a {
 .backimg {
   background-image: url("img/background.png");
   background-repeat: no-repeat;
-  width: 360px;
+  width: auto;
 }
 
 .header-welcome {
@@ -41,7 +45,7 @@ a {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  width: 327px;
+  width: auto;
   height: 150px;
   left: 24px;
   top: 114px;
