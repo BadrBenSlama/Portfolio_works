@@ -160,6 +160,7 @@ a {
 
 .languages {
   display: flex;
+  margin-top: 30px;
 }
 
 .html_button {
