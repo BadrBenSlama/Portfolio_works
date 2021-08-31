@@ -447,3 +447,9 @@ a {
 .fa-times {
   display: none;
 }
+
+.popup_container {
+  display: none;
+  background-color: #fff;
+  border-radius: 16px;
+}
