@@ -479,7 +479,7 @@ a {
 
 .buttons_popup {
   justify-content: space-around;
-  margin-top: -15px;
+  margin-top: 15px;
 }
 
 .cursor_pointer {
