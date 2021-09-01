@@ -8,6 +8,7 @@ const mainContainer = document.querySelector('.main_container');
 const aboutContainer = document.querySelector('.about');
 const contactContainer = document.getElementById('contact');
 const popupContainer = document.querySelector('.popup_container');
+const width = window.innerWidth;
 
 document.querySelectorAll('.mobile_items').forEach((item) => {
   item.addEventListener('click', () => {
@@ -32,10 +33,15 @@ hamburger.addEventListener('click', () => {
 times.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
   times.style.display = 'none';
-  hamburger.style.display = 'block';
   body.style.overflow = 'scroll';
   backimg.style.filter = 'blur(0px)';
   mainContainer.style.filter = 'blur(0px)';
+
+  if (width <= 480) {
+    hamburger.style.display = 'block';
+  } else {
+    hamburger.style.display = 'none';
+  }
 });
 
 times2.addEventListener('click', () => {

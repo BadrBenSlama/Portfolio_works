@@ -71,11 +71,15 @@ a {
   margin: 12px 24px 0 24px;
 }
 
+.nav-container {
+  display: flex;
+  margin: 12px 30px 0 10px;
+}
+
 .navbar {
   width: 320px;
   display: flex;
   justify-content: space-between;
-  margin: 12px 24px 0 24px;
 }
 
 .main {
