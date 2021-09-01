@@ -20,6 +20,7 @@ document.querySelectorAll('.mobile_items').forEach((item) => {
   });
 });
 
+// Event Listeners
 hamburger.addEventListener('click', () => {
   mobileMenu.style.display = 'block';
   times.style.display = 'block';
@@ -52,7 +53,7 @@ function blurItem(items) {
     item.style.filter = 'blur(5px)';
   });
 }
-
+// Array of html content
 const workProjects = [
   {
     title: 'Tonic',
@@ -107,7 +108,7 @@ const workProjects = [
     seeSource: '#',
   },
 ];
-
+// Loop through projects and fill them up
 let htmlDocument = '';
 
 workProjects.forEach((item) => {
@@ -138,11 +139,26 @@ workProjects.forEach((item) => {
 });
 
 mainContainer.innerHTML = htmlDocument;
-
+// event listner for project button click
 document.querySelectorAll('.project_button').forEach((projectButton) => {
   projectButton.addEventListener('click', () => {
     popupContainer.style.display = 'block';
     body.style.overflow = 'hidden';
     blurItem([mainContainer, aboutContainer, contactContainer]);
   });
+});
+
+// Form validation
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  if (email.value.toLowerCase() !== email.value) {
+    e.preventDefault();
+    error.style.display = 'block';
+    error.textContent = 'Please use LOWER CASE letter in your email ;)';
+    error.style.marginTop = '5px';
+    error.style.marginBottom = '5px';
+  }
 });
