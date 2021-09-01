@@ -523,3 +523,11 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
+
+.mobile_deny {
+  display: none;
+}
+
+.border_bottom {
+  display: none;
+}
