@@ -1,13 +1,12 @@
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile_menu');
 const times = document.getElementById('fa-times');
+const times2 = document.getElementById('close_icon');
 const body = document.querySelector('body');
 const backimg = document.getElementById('backimg');
 const mainContainer = document.querySelector('.main_container');
 const aboutContainer = document.querySelector('.about');
 const contactContainer = document.getElementById('contact');
-const cards = document.querySelectorAll('.card');
-const projectButton = document.querySelectorAll('.project_button');
 const popupContainer = document.querySelector('.popup_container');
 
 document.querySelectorAll('.mobile_items').forEach((item) => {
@@ -39,10 +38,18 @@ times.addEventListener('click', () => {
   mainContainer.style.filter = 'blur(0px)';
 });
 
+times2.addEventListener('click', () => {
+  popupContainer.style.display = 'none';
+  mainContainer.style.filter = 'blur(0px)';
+  aboutContainer.style.filter = 'blur(0px)';
+  contactContainer.style.filter = 'blur(0px)';
+  body.style.overflow = 'scroll';
+});
+
 // blur any items
 function blurItem(items) {
   items.forEach((item) => {
-    item.style.filter = "blur(5px)";
+    item.style.filter = 'blur(5px)';
   });
 }
 
@@ -135,12 +142,7 @@ mainContainer.innerHTML = htmlDocument;
 document.querySelectorAll('.project_button').forEach((projectButton) => {
   projectButton.addEventListener('click', () => {
     popupContainer.style.display = 'block';
-    body.style.overflow = "hidden";
+    body.style.overflow = 'hidden';
     blurItem([mainContainer, aboutContainer, contactContainer]);
   });
 });
-
-
-
-
-
