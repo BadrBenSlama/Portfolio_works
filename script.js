@@ -4,7 +4,10 @@ const times = document.getElementById('fa-times');
 const body = document.querySelector('body');
 const backimg = document.getElementById('backimg');
 const mainContainer = document.querySelector('.main_container');
-const projectButton = document.querySelector('.project_button');
+const aboutContainer = document.querySelector('.about');
+const contactContainer = document.getElementById('contact');
+const cards = document.querySelectorAll('.card');
+const projectButton = document.querySelectorAll('.project_button');
 const popupContainer = document.querySelector('.popup_container');
 
 document.querySelectorAll('.mobile_items').forEach((item) => {
@@ -35,6 +38,13 @@ times.addEventListener('click', () => {
   backimg.style.filter = 'blur(0px)';
   mainContainer.style.filter = 'blur(0px)';
 });
+
+// blur any items
+function blurItem(items) {
+  items.forEach((item) => {
+    item.style.filter = "blur(5px)";
+  });
+}
 
 const workProjects = [
   {
@@ -114,15 +124,23 @@ workProjects.forEach((item) => {
           <li class="css_button">css</li>
           <li class="js_button">javascript</li>
       </ul>
-      <form action="#">
-          <input type="submit" class="project_button" value="See Project" />
-      </form>
+      <button type="button" class="project_button">See Project</button>
   </div>
   <div><img class="image_container" alt="Snapshoot_Portfolio4" src="img/Snapshoot_Portfolio4.png"></div>
 </section>`;
 });
+
 mainContainer.innerHTML = htmlDocument;
 
-projectButton.addEventListener('click', () => {
-  popupContainer.style.display = 'block';
+document.querySelectorAll('.project_button').forEach((projectButton) => {
+  projectButton.addEventListener('click', () => {
+    popupContainer.style.display = 'block';
+    body.style.overflow = "hidden";
+    blurItem([mainContainer, aboutContainer, contactContainer]);
+  });
 });
+
+
+
+
+
