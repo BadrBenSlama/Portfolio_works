@@ -158,7 +158,9 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     error.style.display = 'block';
     error.textContent = 'Please use LOWER CASE letter in your email ;)';
+    error.style.textAlign = 'center';
     error.style.marginTop = '5px';
     error.style.marginBottom = '5px';
+    error.style.marginRight = '20px';
   }
 });
