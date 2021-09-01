@@ -470,19 +470,17 @@ a {
 }
 
 .button_styling {
-  margin-top: 5px;
+  margin-top: 0;
   font-size: 15px;
 }
 
 #iconArrow {
-  height: 20px;
-  margin-top: 5px;
+  height: 15px;
   margin-left: 5px;
 }
 
 #github_icon {
   margin-left: 5px;
-  margin-top: 5px;
 }
 
 .popup_text {
