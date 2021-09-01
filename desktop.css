@@ -1,5 +1,9 @@
-.hamburger {
+#hamburger {
   display: none;
+}
+
+.hamburger {
+  filter: opacity(100%);
 }
 
 .overlay {
