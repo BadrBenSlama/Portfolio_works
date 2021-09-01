@@ -33,15 +33,10 @@ hamburger.addEventListener('click', () => {
 times.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
   times.style.display = 'none';
+  hamburger.style.display = 'block';
   body.style.overflow = 'scroll';
   backimg.style.filter = 'blur(0px)';
   mainContainer.style.filter = 'blur(0px)';
-
-  if (width <= 480) {
-    hamburger.style.display = 'block';
-  } else {
-    hamburger.style.display = 'none';
-  }
 });
 
 times2.addEventListener('click', () => {
