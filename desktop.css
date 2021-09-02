@@ -13,6 +13,21 @@
   font-family: Poppins, sans-serif;
 }
 
+.logo:hover {
+  animation-duration: 0.5s;
+  animation-name: rotation;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -87,6 +102,10 @@ a {
   max-width: 544px;
   max-height: 448px;
   margin-right: 46px;
+}
+
+.image_container:hover {
+  transform: scale(1.1);
 }
 
 .main {
@@ -384,6 +403,10 @@ a {
   color: #ebebff;
   margin-bottom: 60px;
   padding: 0 24px;
+}
+
+.text-content:hover {
+  transform: translate(10px);
 }
 
 .name,
