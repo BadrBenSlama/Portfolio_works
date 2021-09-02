@@ -164,3 +164,19 @@ form.addEventListener('submit', (e) => {
     error.style.marginRight = '20px';
   }
 });
+
+// Local Storage
+const namee = document.getElementById('name');
+const message = document.getElementById('message');
+
+const nameInput = namee.value;
+const emailInput = email.value;
+const messageInput = message.value;
+
+const formInput = {
+  namee: nameInput,
+  email: emailInput,
+  message: messageInput,
+};
+
+localStorage.setItem('forminput', JSON.stringify(formInput));
