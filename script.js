@@ -169,14 +169,6 @@ form.addEventListener('submit', (e) => {
 const namee = document.getElementById('name');
 const message = document.getElementById('message');
 
-const fetchData = JSON.parse(localStorage.getItem('forminput'));
-
-if (fetchData) {
-  namee.value = fetchData.nameInput;
-  email.value = fetchData.emailInput;
-  message.value = fetchData.messageInput;
-}
-
 form.addEventListener('input', () => {
   const formInput = {
     nameInput: namee.value,
@@ -186,3 +178,11 @@ form.addEventListener('input', () => {
 
   localStorage.setItem('forminput', JSON.stringify(formInput));
 });
+
+const fetchData = JSON.parse(localStorage.getItem('forminput'));
+
+if (fetchData) {
+  namee.value = fetchData.nameInput;
+  email.value = fetchData.emailInput;
+  message.value = fetchData.messageInput;
+}
