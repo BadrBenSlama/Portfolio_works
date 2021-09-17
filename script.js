@@ -164,3 +164,25 @@ form.addEventListener('submit', (e) => {
     error.style.marginRight = '20px';
   }
 });
+
+// Local Storage
+const namee = document.getElementById('name');
+const message = document.getElementById('message');
+
+form.addEventListener('input', () => {
+  const formInput = {
+    nameInput: namee.value,
+    emailInput: email.value,
+    messageInput: message.value,
+  };
+
+  localStorage.setItem('forminput', JSON.stringify(formInput));
+});
+
+const fetchData = JSON.parse(localStorage.getItem('forminput'));
+
+if (fetchData) {
+  namee.value = fetchData.nameInput;
+  email.value = fetchData.emailInput;
+  message.value = fetchData.messageInput;
+}
