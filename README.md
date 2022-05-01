@@ -17,7 +17,7 @@ in this version i used media queries to destinguish between mobile and desktop v
 
 ## Live Demo
 
-[Live Demo Link](https://goldinium.github.io/Portfolio_works/)
+[Live Demo Link](https://badrbenslama.github.io/Portfolio_works/)
 
 
 ## Getting Started
@@ -26,17 +26,17 @@ in this version i used media queries to destinguish between mobile and desktop v
 To get a local copy up and running
 
 Clone using SSH
-git@github.com:Goldinium/Portfolio_works.git
+git@github.com:badrbenslama/Portfolio_works.git
 
 Clone using HTTPS
-https://github.com/Goldinium/Portfolio_works.git
+https://github.com/badrbenslama/Portfolio_works.git
 
 
 ## Authors
 
-👤 Goldinium
+👤 badrbenslama
 
-- GitHub: [@goldinium](https://github.com/goldinium)
+- GitHub: [@badrbenslama](https://github.com/badrbenslama)
 
 
 ## 🤝 Contributing
